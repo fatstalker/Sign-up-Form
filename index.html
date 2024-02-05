@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <div class="leftSide">
+            <div class="logo">
+                <img id="logo" src="logoSignUp.png" alt="Pigly">
+                <div id="logoText">Pigly</div>
+            </div>
+            <footer>Foto di <a href="https://unsplash.com/it/@fabbel78?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Fabien BELLANGER</a> su <a href="https://unsplash.com/it/foto/un-bellissimo-tramonto-sulloceano-con-le-rocce-zKFoVBS_WGE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+            </footer>
+        </div>
+        <div class="rightSide">
+            <div class="formHeader">
+                <p>This is not a real online service! You know you need something like this in your life to help realize your deepest dreams.</p>
+                <p>sign up <em>now</em> to get started.</p>
+                <p>You <em>know</em> you want to.</p>
+            </div>
+            <form id="myForm" method="post">
+                <h2>Let's do this!</h2>
+                <div class="formCols">
+                    <div class="leftFormCol">
+                        <div class="input">
+                            <label for="firstName">FIRST NAME</label>
+                            <input type="text" id="firstName" minlength="3" maxlength="20">
+                        </div>
+                        <div class="input">
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email">
+                        </div>
+                        <div class="input">
+                            <label for="password">PASSWORD</label>
+                            <input type="password" id="password">
+                        </div>
+                        
+                    </div>
+                    <div class="rightFormCol">
+                        <div class="input">
+                            <label for="lastName">LAST NAME</label>
+                            <input type="text" id="lastName" minlength="3" maxlength="20">
+                        </div>
+                        <div class="input">
+                            <label for="phoneNumber">PHONE NUMBER</label>
+                            <input type="number" id="phoneNumber">
+                        </div>
+                        <div class="input">
+                            <label for="confirmPassword">CONFIRM PASSWORD</label>
+                            <input type="password" id="confirmPassword">
+                        </div>
+                        
+                    </div>
+                </div>
+            </form>
+            <input type="submit" id="submitButton" form="myForm" value="Create account">
+            <p>Already have an account? <span style="color: blue;">Sign in</span></p>
+        </div>
+    </body>
+</html>
