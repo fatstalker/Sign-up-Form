@@ -100,8 +100,11 @@ a {
     color: white;
 }
 
-:invalid {
-    border-color: red;
+#firstName:invalid, #lastName:invalid,#phoneNumber:invalid, #email:invalid, #password:invalid, #confirmPassword:invalid {
+    border-color: rgb(245, 53, 53);
+}
+#firstName:valid, #lastName:valid,#phoneNumber:valid, #email:valid, #password:valid, #confirmPassword:valid {
+    border-color: rgb(80, 208, 99);
 }
 input:focus {
     outline: 0;
